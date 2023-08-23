@@ -1,0 +1,23 @@
+{
+  "name": "three-particle-geometry",
+  "version": "1.0.0",
+  "description": "A npm package that allows users to represent threeJS geometry instances as particles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeMartin1234/three-particles-geometry.git"
+  },
+  "keywords": [
+    "threeJS",
+    "particles"
+  ],
+  "author": "Jake Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakeMartin1234/three-particle-geometry/issues"
+  },
+  "homepage": "https://github.com/jakeMartin1234/three-particle-geometry#readme"
+}

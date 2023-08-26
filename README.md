@@ -4,8 +4,10 @@ A npm package that allows users to represent threeJS geometry instances as a sys
 
 ![Sphere and Cube](./sphereAndCube.png)
 
-## Prerequites
+## Prerequisites
 
+1. Have [threeJS](https://threejs.org/) installed in your project.
+2. Have a threeJS scene set up that is runnable on the browser.
 
 ## Installation
 
@@ -26,9 +28,9 @@ import { ParticleGeometry } from 'three-particle-geometry';
 3. Call the ParticleGeometry constructor and add the particles to the scene.
 
 ```javascript
-
 // 1. The geometry instance to be represented as particles
 const boxGeometry = new THREE.BoxGeometry(1, 1, 1);
+
 // 2.
 // The geometry instance to be used for each of the particles
 const particleGeometry = new THREE.SphereGeometry(0.005);
@@ -40,5 +42,4 @@ const particleMaterial = new THREE.MeshBasicMaterial({
 // 3. Call to the ParticleGeometry constructor and add to the scene
 const particles = new ParticleGeometry(boxGeometry, particleGeometry, particleMaterial, { numParticles: 20000 });
 scene.add(particles);
-
 ```

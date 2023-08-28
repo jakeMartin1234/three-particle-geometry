@@ -1,8 +1,11 @@
 # three-particle-geometry
 
-A npm package that allows users to represent threeJS geometry instances as a system customizable particles.
+A npm package that allows users to represent threeJS geometry instances as a system of customizable particles.
+Feel free to clone and use the [demo](https://github.com/jakeMartin1234/three-particle-geometry-test).
 
 ![Sphere and Cube](./sphereAndCube.png)
+
+
 
 ## Prerequisites
 

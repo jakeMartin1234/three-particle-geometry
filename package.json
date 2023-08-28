@@ -1,7 +1,7 @@
 {
   "name": "three-particle-geometry",
   "version": "1.1.6",
-  "description": "A npm package that allows users to represent threeJS geometry instances as particles.",
+  "description": "An npm package that allows users to represent threeJS geometry instances as particles.",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production"
